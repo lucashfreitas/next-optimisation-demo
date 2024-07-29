@@ -1,4 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
+
+//yeah, I know I don't need to add this just to make sure this is a server component.
+"use server";
 import React from "react";
 import { CarType } from "../data/cars";
 
