@@ -1,6 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { CarType } from "../data/cars";
-import Image from "next/image";
 
 const CarCard: React.FC<{ car: CarType }> = ({ car }) => {
   return (
